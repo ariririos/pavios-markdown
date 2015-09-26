@@ -1,0 +1,25 @@
+{
+  "name": "pavios-markdown",
+  "version": "0.0.1",
+  "description": "The 'markdown' task for Pavios.",
+  "main": "build/index.js",
+  "scripts": {
+    "prepublish": "./node_modules/.bin/coffee -cbmo build/ src/index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rioc0719/pavios-markdown.git"
+  },
+  "author": "Cristian Rios <cristian.rios0719@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-markdown": "^1.0.0",
+    "gulp-minify-html": "^1.0.4"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.10.0"
+  },
+  "peerDependencies": {
+    "pavios": "^0.0.0"
+  }
+}
